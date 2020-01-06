@@ -36,15 +36,15 @@ public class ArrayListCustomer {
 			private static void updateCustomer(Customer customer)
 			{
 				//Customer cust1= new Customer(5,"Hari");
-				Customer cust1 = (Customer)customers.get(cust1.customerId);
-				if(cust1!= null )
-				{
+				//Customer cust1 = (Customer)customers.get(cust1.customerId);
+				//if(cust1!= null )
+				//{
 					customers.set(cust1.customerId, customer);
 					System.out.println("Updated customer : " + customer);
-				}
-				else {
-					System.out.println("Customer not found!");
-				}
+				//}
+				//else {
+					//System.out.println("Customer not found!");
+				//}
 			}
 			
 			private static void findCustomer(int customerId) {
