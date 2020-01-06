@@ -39,7 +39,7 @@ public class ArrayListCustomer {
 				//Customer cust1 = (Customer)customers.get(cust1.customerId);
 				//if(cust1!= null )
 				//{
-					customers.set(cust1.customerId, customer);
+					customers.set(0, customer);
 					System.out.println("Updated customer : " + customer);
 				//}
 				//else {
